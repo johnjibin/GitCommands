@@ -13,6 +13,7 @@ Error: Cask 'git-credential-manager-core' is unavailable: No Cask with this name
 3. brew tap microsoft/git      //The location of the files got changed as per documentation
 4. brew install --cask git-credential-manager-core
 
+<<<<<<< HEAD
 --------------------------------------------------------------------------------------------
 
 #Creating branch and pushing changes
@@ -26,3 +27,19 @@ Error: Cask 'git-credential-manager-core' is unavailable: No Cask with this name
 7. git push -u origin johnjibin-patch-1
 
 ---------------------------------------------------------------------------------------------
+=======
+----------------------------------------------------------------------------
+
+#Switching Branch
+
+1. git checkout <branch name>
+
+----------------------------------------------------------------------------
+
+#Fetch changes in remote repository
+
+1. git fet <remote repo name>
+2. git merge origin/<branch name>
+
+----------------------------------------------------------------------------
+>>>>>>> main
