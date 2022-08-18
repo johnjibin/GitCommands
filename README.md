@@ -36,7 +36,7 @@ Error: Cask 'git-credential-manager-core' is unavailable: No Cask with this name
 #Fetch changes in remote repository
 
 1. git fetch origin <remote repo name>
-2. git merge origin/<branch name>                //name of the branch from action done
+2. git merge origin / <branch name>                //name of the branch from action done
 
 ----------------------------------------------------------------------------
 
