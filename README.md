@@ -12,3 +12,17 @@ Error: Cask 'git-credential-manager-core' is unavailable: No Cask with this name
 
 3. brew tap microsoft/git      //The location of the files got changed as per documentation
 4. brew install --cask git-credential-manager-core
+
+--------------------------------------------------------------------------------------------
+
+#Creating branch and pushing changes
+
+1. create a branch named johnjibin-patch-1
+2. In terminal add the command git checkout -b johnjibin-patch-1   
+3. create any new file ( I created a .cpp file)
+4. git status --> To know the changes
+5. git add .  --> Adding all the changes
+6. git commit -m "First commit from local repo to branch"
+7. git push -u origin johnjibin-patch-1
+
+---------------------------------------------------------------------------------------------
