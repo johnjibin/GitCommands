@@ -12,3 +12,18 @@ Error: Cask 'git-credential-manager-core' is unavailable: No Cask with this name
 
 3. brew tap microsoft/git      //The location of the files got changed as per documentation
 4. brew install --cask git-credential-manager-core
+
+----------------------------------------------------------------------------
+
+#Switching Branch
+
+1. git checkout <branch name>
+
+----------------------------------------------------------------------------
+
+#Fetch changes in remote repository
+
+1. git fet <remote repo name>
+2. git merge origin/<branch name>
+
+----------------------------------------------------------------------------
