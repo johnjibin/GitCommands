@@ -40,3 +40,18 @@ Error: Cask 'git-credential-manager-core' is unavailable: No Cask with this name
 
 ----------------------------------------------------------------------------
 
+#Uploading Large Files 
+
+Reference - https://git-lfs.github.com/ 
+
+1. git lfs install
+2. Add .gitattribute file https://gist.github.com/nemotoo/b8a1c3a0f1225bb9231979f389fd4f3f
+3. git config --system core.longpaths true  -> Some Unity files are with longer name tags
+4. git lfs migrate info   -> To check larger files above 100mb
+5. lfs migrate import --include="*.o,*.unity3d,*.bin,lld,dsymutil" -> the file types will get generate from 4th step
+6. git status -u -> To display changes
+7. git add .
+8. git commit -m "comment"
+9. git push origin
+
+
