@@ -1,4 +1,4 @@
-#Unity3D
+# Unity3D
 
 Important Commands to Setup Git on Mac OS and Solve Credential problems
 
@@ -15,18 +15,18 @@ Error: Cask 'git-credential-manager-core' is unavailable: No Cask with this name
 
 --------------------------------------------------------------------------------------------
 
-#configuring git user credentials
+# configuring git user credentials
 
-# Set username (local repository)
+#Set username (local repository)
 git config user.name "Your Name"
 
-# Set username (global)
+#Set username (global)
 git config --global user.name "Your Name"
 
-# Set email (local repository)
+#Set email (local repository)
 git config user.email "your@email.com"
 
-# Set email (global)
+#Set email (global)
 git config --global user.email "your@email.com"
 
 
@@ -35,7 +35,7 @@ git config --global user.email "your@email.com"
 
 ----------------------------------------------------------------------------------------------
 
-#Creating branch and pushing changes
+# Creating branch and pushing changes
 
 1. create a branch named johnjibin-patch-1
 2. In terminal add the command git checkout -b johnjibin-patch-1   
@@ -47,20 +47,20 @@ git config --global user.email "your@email.com"
 
 ----------------------------------------------------------------------------
 
-#Switching Branch
+# Switching Branch
 
 1. git checkout <"branch name">
 
 ----------------------------------------------------------------------------
 
-#Fetch changes in remote repository
+# Fetch changes in remote repository
 
 1. git fetch origin <remote repo name>
 2. git merge origin / <"branch name">                //name of the branch from action done
 
 ----------------------------------------------------------------------------
 
-#Uploading Large Files 
+# Uploading Large Files 
 
 Reference - https://git-lfs.github.com/ 
 
