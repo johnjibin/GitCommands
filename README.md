@@ -15,6 +15,15 @@ Error: Cask 'git-credential-manager-core' is unavailable: No Cask with this name
 
 --------------------------------------------------------------------------------------------
 
+#configuring git user credentials
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------
+
 #Creating branch and pushing changes
 
 1. create a branch named johnjibin-patch-1
