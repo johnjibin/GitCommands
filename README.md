@@ -17,6 +17,17 @@ Error: Cask 'git-credential-manager-core' is unavailable: No Cask with this name
 
 #configuring git user credentials
 
+# Set username (local repository)
+git config user.name "Your Name"
+
+# Set username (global)
+git config --global user.name "Your Name"
+
+# Set email (local repository)
+git config user.email "your@email.com"
+
+# Set email (global)
+git config --global user.email "your@email.com"
 
 
 
